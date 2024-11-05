@@ -1,0 +1,562 @@
+body
+{
+	background-color: #E1DFDD;
+}
+
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  color:#2F3E46;
+  font-family: 'Raleway', sans-serif;
+  font-size:48px;
+}
+.fa {
+  font-family: 'Raleway', sans-serif;
+  color: #2F3E46;
+  padding-left: 20px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.one ul {
+  background: #E1DFDD;
+  margin-left:10px;
+}
+.one ul a {
+  color: #2F3E46;
+}
+.topmenu
+{
+	padding-left:30px;
+}
+
+.q
+{
+	vertical-align:middle;
+	padding-top: 14px;
+	position: center;
+	margin-left: 20px;
+	margin-right:10px;
+	padding-right:20px;	
+}
+
+.iz
+{
+	vertical-align:middle;
+	padding-left: 50px;
+}
+.kor
+{
+	vertical-align:middle;
+}
+.navig{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:13%;
+    bottom: 0px;
+}
+
+.img_wrap {
+  width: 1250px;
+  height: 352px;
+  position: relative;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+.img_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position:10 10;
+}
+
+.textcols {
+	white-space: nowrap;
+	margin-left: 40px;
+	margin-right: 45px;
+	margin-top:20px;
+	position:center;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	font-family: 'Raleway', sans-serif;
+	font-size:24px;
+	color:#2F3E46;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
+}
+
+.snap{
+  margin-top:20px;
+  background-color: #6F7166;
+  border-radius: 50px;
+  padding: 0px 70px;
+  border: none;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+/* Добавить фон на наведении курсора мыши */
+.snap:hover {
+  background-color: #2F3E46;
+}
+a.taxtBt{
+color:#E1DFDD;
+font-family: 'Raleway';
+font-size: 40px;
+}
+a.taxtBt1{
+color:#E1DFDD;
+font-family: 'Raleway';
+font-size: 40px;
+padding-bottom:50%;
+}
+.zag
+{
+	padding-left:40px;
+}
+
+p{
+color:#2F3E46;
+font-family: 'Raleway', sans-serif;;
+font-size: 32px;
+}
+.qq{
+color:#2F3E46;
+font-family: 'Raleway', sans-serif;;
+font-size: 96px;
+}
+
+.post{
+	padding-left:59%;
+}
+.post1{
+	padding-top:7%;
+	padding-bottom:0px;
+	padding-left:26%;
+	border-radius:0px 0px 30px 0px;
+}
+.img_wrap1 {
+  width: 900px;
+  height: 700px;
+  position: relative;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+.img_wrap1 img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  object-position:10 10;
+}
+
+.navig1{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:5%;
+    bottom: 400px;
+}
+.navig2{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:5%;
+    bottom: 350px;
+}
+.navig3{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:15%;
+    bottom: 250px;
+}
+.snap1{
+  margin-top:20px;
+  background-color: #2F3E46;
+  border-radius: 50px;
+  padding: 0px 70px;
+  border: none;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+/* Добавить фон на наведении курсора мыши */
+.snap1:hover {
+  background-color: #6F7166;
+}
+
+.img_wrap2 {
+  width: 900px;
+  height: 700px;
+  position: relative;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+.img_wrap2 img {
+  width: 89%;
+  height: 89%;
+  object-fit: cover;
+  object-position:0 0;
+}
+.navig4{
+	width:500px;
+	font-family:'Raleway', sans-serif;
+	font-size:40px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:5%;
+    bottom: 350px;
+}
+.img_wrap3 {
+  width: 650px;
+  height: 150px;
+  position: relative;
+  padding-top: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.img_wrap3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position:10 10;
+}
+.baner{
+padding-left:40px;
+width: 1000px;
+  height: 150px;
+  padding-top: 0px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.b2 img{
+	object-fit: cover;
+	 height: 80%;
+}
+
+a.ban{
+	padding:0px 0px;
+	height:300px;
+}
+.navig5{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:1%;
+    bottom: 0px;
+}
+h3{
+	color:#E1DFDD;
+	font-family:'Raleway', sans-serif;
+	font-size:96px;
+}
+.navig6{
+	font-family:'Raleway', sans-serif;
+	font-size:96px;
+	font-weight: bold;
+	position: absolute;
+	padding-top:50px;
+	margin-left:8%;
+    bottom: 0px;
+}
+.navig10{
+	font-family:'Raleway', sans-serif;
+	font-size:96px;
+	font-weight: bold;
+	position: absolute;
+	padding-top:50px;
+	margin-left:30%;
+    bottom: 25%;
+}
+.navig9{
+	font-family:'Raleway', sans-serif;
+	font-size:50px;
+	font-weight: bold;
+	position: absolute;
+	padding-top:50px;
+	margin-left:8%;
+    bottom: 20%;
+}
+
+.img_wrap7 {
+  width: 456px;
+  height: 346px;
+  position: relative;
+  padding-top: 0px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.img_wrap7 img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  object-position:10 10;
+}
+
+
+.baner1{
+padding-left:40px;
+width: 1300px;
+height: 300px;
+padding-top: 0px;
+ display: inline-block;
+  white-space: nowrap;
+  position:center;
+}
+.cv{
+height: 300px;
+float: left;
+background: #6F7166;
+width: 600px; 
+margin:0px;
+border-radius: 30px;
+}
+
+.cv1{
+ height: 300px;
+float: left;
+background: #2F3E46;
+width: 600px; 
+margin:0px;
+border-radius: 30px;
+}
+
+
+.cv2{
+ height: 300px;
+float: left;
+width: 50px; 
+margin:0px;
+border-radius: 30px;
+}
+
+
+.navig3{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:15%;
+    bottom: 250px;
+}
+.snap2{
+  margin-top:20px;
+  background-color: #2F3E46;
+  border:3px solid white;
+  border-color:E1DFDD;
+  padding: 0px 40px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-left: -35px;
+}
+/* Добавить фон на наведении курсора мыши */
+.snap2:hover {
+  background-color: #6F7166;
+}
+.snap3{
+  margin-top:20px;
+  background-color: #6F7166;
+  border:3px solid white;
+  border-color:E1DFDD;
+  padding: 0px 40px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-left: -35px;
+}
+/* Добавить фон на наведении курсора мыши */
+.snap3:hover {
+  background-color: #2F3E46;
+}
+.navig8{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	margin-left:-40px;
+  bottom: 20%;
+}
+
+.navig7{
+	font-family:'Raleway', sans-serif;
+	font-size:20px;
+	font-weight: normal;
+	position: absolute;
+	padding-left:0px;
+  bottom: 25%;
+}
+
+
+/* В класс "show" добавляется к отфильтрованные элементы */
+.show {
+  display: block;
+}
+
+
+/* Стиль кнопок */
+.btn {
+  border: none;
+  border-radius:30px;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #9EA997;
+  cursor: pointer;
+  margin-left:30px;
+  font-family:'Raleway', sans-serif;
+	font-size:20px;
+	  color: white;
+	font-weight: normal;
+}
+
+/* Добавить фон на наведении курсора мыши */
+.btn:hover {
+  background-color: #6F7166;
+}
+
+/* Добавить темный фон для активной кнопки */
+.btn.active {
+  background-color: #6F7166 ;
+  color: white;
+}
+
+
+.img_wrap10 {
+  width: 650px;
+  height: 325px;
+  position: relative;
+  padding-top: 0px;
+  display: inline-block;
+  white-space: nowrap;
+  border-radius:30px;
+}
+
+.img_wrap10 img {
+  width: 90%;
+  height: 90%;
+  border-radius:30px;
+  object-fit: cover;
+  object-position:10 10;
+}
+.card{
+	
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  height: 700px;
+  float: left;
+  width: 650px; 
+  margin:0px;
+  border-radius: 30px;
+}
+.snap4{
+  margin-top:10px;
+  background-color: #E1DFDD;
+  border:3px solid color  #2F3E46;
+  border-color:2F3E46;
+  padding: -5px 20px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+/* Добавить фон на наведении курсора мыши */
+.snap4:hover {
+  background-color: #2F3E46;
+  border:none;
+  text-color: #E1DFDD;
+}
+a.taxtBt4{
+color:#2F3E46;
+font-family: 'Raleway';
+font-size: 40px;
+}
+a.taxtBt4:hover {
+color: #E1DFDD;
+}
+.snap5{
+  margin-top:20px;
+  background-color: #2F3E46;
+  border-radius:50px;
+  padding: 5px 40px;
+  border:none;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+/* Добавить фон на наведении курсора мыши */
+.snap5:hover {
+  background-color: #6F7166;
+}
+.baner2{
+width: 1300px;
+height: 700px;
+padding-top: 0px;
+ display: inline-block;
+  white-space: nowrap;
+}
+.navig11{
+	position: absolute;
+	margin-left:1%;
+    bottom: 5%;
+}
+.navig11 img{
+width: 70%;
+  height: 70%;
+}
+
+p.textCard{
+	text-align:left;
+color:#2F3E46;
+margin-top:-20px;
+font-family: 'Raleway', sans-serif;;
+font-size: 28px;
+white-space: normal;	
+display: inline-block;
+width: 580px;
+margin-left:10px;
+vertical-align: right;
+
+}
+
+.btnCard{
+float:left;
+vertical-align: right;
+width: 100px;
+height: 30px;
+padding-left:120px;
+margin-top:-50px;
+}
